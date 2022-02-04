@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat:wght@500;600;700&display=swap');
+.App {
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  color:rgb(84, 124, 199);
+  font-weight: bold;
+  font-size:xx-large;
+}
+button:hover { background:gold}
+.Card-grid{
+  margin: 2rem;
+  padding:2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.Card img{border: solid;
+  background-color: white;
+  border-color: #141E30;
+  border-radius:2px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 1rem;
+  margin: 1rem;}
+  
+  .card .front { transform: rotateY(90deg); position : absolute}
+  .flipped .front { transform: rotateY(0deg)}
